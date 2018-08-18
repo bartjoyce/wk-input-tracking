@@ -14,6 +14,8 @@ list(APPEND ASSETS
     ${CMAKE_CURRENT_SOURCE_DIR}/assets/SFBoldItalic.ttf
     ${CMAKE_CURRENT_SOURCE_DIR}/assets/SFMedium.ttf
     ${CMAKE_CURRENT_SOURCE_DIR}/assets/SFMediumItalic.ttf
+    ${CMAKE_CURRENT_SOURCE_DIR}/assets/TNRBold.ttf
+    ${CMAKE_CURRENT_SOURCE_DIR}/assets/background.jpg
 )
 
 add_executable(wp-input-tracking MACOSX_BUNDLE WIN32 ${SOURCES} ${ASSETS})
